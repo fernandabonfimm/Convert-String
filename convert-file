@@ -1,0 +1,6 @@
+function reverse(s){
+    return s.split("").reverse().join("");
+}
+
+var convert = reverse("fernanda")
+console.log(convert)
